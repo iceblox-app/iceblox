@@ -1,0 +1,74 @@
+name: Bug report
+description: Something broke, or Roblox will not launch on your machine
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. The machine details below matter a lot for
+        iceblox, so please fill them in even if the problem seems unrelated.
+        Never include your Roblox password or any account credentials.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what actually happened?
+      placeholder: iceblox opens, Roblox starts downloading, then the window closes.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Launch iceblox
+        2. Log in
+        3. Click a game
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: iceblox version
+      description: If you are not sure, say where you got iceblox and roughly when you last updated it.
+      placeholder: "0.0.1, or: installed from the beta build on 10 July"
+    validations:
+      required: true
+  - type: input
+    id: distro
+    attributes:
+      label: Linux distribution and version
+      placeholder: "Linux Mint 22, Ubuntu 24.04, Fedora 40..."
+    validations:
+      required: true
+  - type: input
+    id: cpu
+    attributes:
+      label: CPU model
+      description: Exact model helps us reproduce on similar hardware. Find it with lscpu | grep "Model name"
+      placeholder: "Intel Core i7-920"
+    validations:
+      required: true
+  - type: input
+    id: gpu
+    attributes:
+      label: Graphics card
+      placeholder: "NVIDIA GTX 1050 Ti, AMD RX 570, Intel HD 4000..."
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Terminal output
+      description: Run iceblox from a terminal and paste what it prints around the failure.
+      render: shell
+    validations:
+      required: false
+  - type: checkboxes
+    id: no-credentials
+    attributes:
+      label: Credentials check
+      options:
+        - label: I confirm this report contains no Roblox password or account credentials
+          required: true

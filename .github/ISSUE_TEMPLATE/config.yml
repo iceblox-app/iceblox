@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: iceblox website
+    url: https://iceblox.app
+    about: What iceblox is, status, and minimum requirements
+  - name: Licence and legal notice
+    url: https://iceblox.app/notice
+    about: Legal questions are answered here
