@@ -27,12 +27,14 @@ body:
         3. Click a game
     validations:
       required: false
-  - type: input
+  - type: dropdown
     id: version
     attributes:
       label: iceblox version
-      description: If you are not sure, say where you got iceblox and roughly when you last updated it.
-      placeholder: "0.0.1, or: installed from the beta build on 10 July"
+      description: Pick the version you are running. If you are not sure, choose "Not sure".
+      options:
+        - 0.0.1
+        - Not sure
     validations:
       required: true
   - type: input
