@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" role="img" aria-label="iceblox">
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#21E6FF"/>
+      <stop offset="1" stop-color="#FF3CC7"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- neon wireframe cube (true 2:1 isometric, centred on 128,128) + prompt inside.
+       Transparent background: app-tile removed for GitHub profile avatar. -->
+  <g filter="url(#glow)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke="url(#edge)" stroke-width="9">
+      <!-- top rhombus -->
+      <path d="M128 64 L192 96 L128 128 L64 96 Z"/>
+      <!-- vertical edges -->
+      <path d="M64 96 L64 160 M128 128 L128 192 M192 96 L192 160"/>
+      <!-- bottom edges -->
+      <path d="M64 160 L128 192 L192 160"/>
+    </g>
+    <!-- wireframe prompt: chevron + hollow block cursor -->
+    <g stroke="#FF54C8" stroke-width="9">
+      <path d="M100 112 L118 128 L100 144"/>
+      <rect x="132" y="116" width="24" height="24" rx="3.5"/>
+    </g>
+  </g>
+</svg>

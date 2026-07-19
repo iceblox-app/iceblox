@@ -1,0 +1,67 @@
+<p align="center">
+  <img src="assets/iceblox.svg" width="170" alt="iceblox logo">
+</p>
+
+<h1 align="center">iceblox</h1>
+
+<p align="center"><b>Run Roblox on Linux</b></p>
+
+<p align="center">
+  <a href="https://iceblox.app">iceblox.app</a> &middot;
+  <a href="https://github.com/iceblox-app/iceblox/issues">Report an issue</a> &middot;
+  <a href="https://iceblox.app/notice">Licence &amp; legal notice</a>
+</p>
+
+---
+
+## What is iceblox?
+
+iceblox lets you play Roblox on Linux, including on older PCs that can't
+otherwise run it.
+
+It downloads and launches the real, official Roblox. Nothing about the game is
+changed, and no Roblox files ship with iceblox.
+
+## Status
+
+iceblox is a working beta. It runs the real Roblox on Linux and you can play
+games with it today. It is still a beta: expect rough edges while it hardens.
+
+## Get it
+
+iceblox is not packaged for general use yet. Packaged releases are planned.
+Watch this repository or [iceblox.app](https://iceblox.app) to follow progress.
+
+## Minimum requirements
+
+- 64-bit x86 Linux (x86-64)
+- Works on ordinary and older x86-64 CPUs, including CPUs without AVX. Tested
+  back to the 2008 Intel Core i7-920.
+- An internet connection. The launcher downloads the official Roblox on first
+  run, and playing is online.
+- A Roblox account.
+
+More detailed requirements will be published as the beta hardens.
+
+## Reporting issues
+
+This repository is the public issue tracker for iceblox. Found a bug, or
+Roblox won't launch on your machine?
+[Open an issue](https://github.com/iceblox-app/iceblox/issues/new) with your
+distro, CPU model, and what happened.
+
+The source code is not public; this repository exists for issue tracking and
+project updates, in the same way other launchers use GitHub for their trackers.
+
+## Legal
+
+iceblox is not affiliated with, endorsed by, or sponsored by Roblox Corporation.
+
+iceblox is unofficial software. Use at your own risk.
+
+iceblox never redistributes Roblox IP; the engine is downloaded at runtime and
+signature-verified.
+
+iceblox is proprietary software. Copyright 2026 the iceblox developers. All
+rights reserved. See the full
+[licence &amp; legal notice](https://iceblox.app/notice).
