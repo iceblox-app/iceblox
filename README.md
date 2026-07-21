@@ -7,6 +7,7 @@
 <p align="center"><b>Run Roblox on Linux</b></p>
 
 <p align="center">
+  <a href="https://github.com/iceblox-app/iceblox/releases/latest">Download</a> &middot;
   <a href="https://iceblox.app">iceblox.app</a> &middot;
   <a href="https://github.com/iceblox-app/iceblox/issues">Report an issue</a> &middot;
   <a href="https://iceblox.app/notice">Licence &amp; legal notice</a>
@@ -24,13 +25,27 @@ changed, and no Roblox files ship with iceblox.
 
 ## Status
 
-iceblox is a working beta. It runs the real Roblox on Linux and you can play
-games with it today. It is still a beta: expect rough edges while it hardens.
+iceblox is a working beta, and the first public release (v0.1.0) is out now.
+It runs the real Roblox on Linux and you can play games with it today. It is
+still a beta: expect rough edges while it hardens.
 
 ## Get it
 
-iceblox is not packaged for general use yet. Packaged releases are planned.
-Watch this repository or [iceblox.app](https://iceblox.app) to follow progress.
+The beta is available to download now.
+
+**[Download iceblox](https://github.com/iceblox-app/iceblox/releases/latest/download/iceblox)**
+(a single binary for 64-bit x86 Linux)
+
+Then make it executable and run it:
+
+```sh
+chmod +x iceblox
+./iceblox
+```
+
+iceblox checks for new releases when it starts, so you only need to download
+it once. All releases, with checksums, are on the
+[releases page](https://github.com/iceblox-app/iceblox/releases).
 
 ## Minimum requirements
 
