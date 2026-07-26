@@ -17,17 +17,14 @@
 
 ## What is iceblox?
 
-iceblox lets you play Roblox on Linux, including on older PCs that can't
-otherwise run it.
+iceblox lets you play Roblox on Linux, including on older PCs that can't otherwise run it.
 
-It downloads and launches the real, official Roblox. Nothing about the game is
-changed, and no Roblox files ship with iceblox.
+It downloads and launches the real, official Roblox. Nothing about the game is changed, and no Roblox files ship with iceblox.
 
 ## Status
 
-iceblox is a working beta, and the first public release (v0.1.0) is out now.
-It runs the real Roblox on Linux and you can play games with it today. It is
-still a beta: expect rough edges while it hardens.
+iceblox is a working beta, and the public release is out now.
+It runs the real Roblox on Linux and you can play games with it today. It is still a beta: expect rough edges while it hardens.
 
 ## Get it
 
@@ -43,30 +40,23 @@ chmod +x iceblox
 ./iceblox
 ```
 
-iceblox checks for new releases when it starts, so you only need to download
-it once. All releases, with checksums, are on the
-[releases page](https://github.com/iceblox-app/iceblox/releases).
+iceblox checks for new releases when it starts, so you only need to download it once. All releases, with checksums, are on the [releases page](https://github.com/iceblox-app/iceblox/releases).
 
 ## Minimum requirements
 
 - 64-bit x86 Linux (x86-64)
-- Works on ordinary and older x86-64 CPUs, including CPUs without AVX. Tested
-  back to the 2008 Intel Core i7-920.
-- An internet connection. The launcher downloads the official Roblox on first
-  run, and playing is online.
+- Works on ordinary and older x86-64 CPUs, including CPUs without AVX. Tested back to the 2008 Intel Core i7-920.
+- An internet connection. The launcher downloads the official Roblox on first run, and playing is online.
 - A Roblox account.
 
 More detailed requirements will be published as the beta hardens.
 
 ## Reporting issues
 
-This repository is the public issue tracker for iceblox. Found a bug, or
-Roblox won't launch on your machine?
-[Open an issue](https://github.com/iceblox-app/iceblox/issues/new) with your
-distro, CPU model, and what happened.
+This repository is the public issue tracker for iceblox. Found a bug, or Roblox won't launch on your machine?
+[Open an issue](https://github.com/iceblox-app/iceblox/issues/new) with your distro, CPU model, and what happened.
 
-The source code is not public; this repository exists for issue tracking and
-project updates, in the same way other launchers use GitHub for their trackers.
+The source code is not public; this repository exists for issue tracking and project updates, in the same way other launchers use GitHub for their trackers.
 
 ## Legal
 
@@ -77,6 +67,4 @@ iceblox is unofficial software. Use at your own risk.
 iceblox never redistributes Roblox IP; the engine is downloaded at runtime and
 signature-verified.
 
-iceblox is proprietary software. Copyright 2026 the iceblox developers. All
-rights reserved. See the full
-[licence &amp; legal notice](https://iceblox.app/notice).
+iceblox is proprietary software. Copyright 2026 the iceblox developers. All rights reserved. See the full [licence &amp; legal notice](https://iceblox.app/notice).
