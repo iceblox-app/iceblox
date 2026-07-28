@@ -31,14 +31,16 @@ It runs the real Roblox on Linux and you can play games with it today. It is sti
 The beta is available to download now.
 
 **[Download iceblox](https://github.com/iceblox-app/iceblox/releases/latest/download/iceblox)**
-(a single binary for 64-bit x86 Linux)
-
-Then make it executable and run it:
-
-```sh
-chmod +x iceblox
-./iceblox
-```
+(a single binary for 64-bit x86 Linux)  
+<br>
+  <a href="https://www.virustotal.com/gui/url/2da99067f0ee07a61c648a95feb6593baec6d8d2aebb3cd05cde207425a3b24e">
+    <img
+      src="https://img.shields.io/badge/VirusTotal-0%2F92%20flagged-2ea44f?style=flat-square&logo=virustotal&logoColor=white"
+      alt="VirusTotal: 0 of 92 security vendors flagged the v0.1.14 download">
+  </a>
+**Checked by VirusTotal**: 0 of 92 security vendors flagged this download.
+<br>
+[View the report](https://www.virustotal.com/gui/url/2da99067f0ee07a61c648a95feb6593baec6d8d2aebb3cd05cde207425a3b24e).
 
 iceblox checks for new releases when it starts, so you only need to download it once. All releases, with checksums, are on the [releases page](https://github.com/iceblox-app/iceblox/releases).
 
