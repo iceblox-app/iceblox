@@ -23,12 +23,11 @@ It downloads and launches the real, official Roblox. Nothing about the game is c
 
 ## Status
 
-iceblox is a working beta, and the public release is out now.
-It runs the real Roblox on Linux and you can play games with it today. It is still a beta: expect rough edges while it hardens.
+iceblox is out of beta. It runs the real, official Roblox on Linux, and you can play games with it today. Development continues; report anything you hit on GitHub.
 
 ## Get it
 
-The beta is available to download now.
+iceblox is available to download now.
 
 **[Download iceblox](https://github.com/iceblox-app/iceblox/releases/latest/download/iceblox)**
 (a single binary for 64-bit x86 Linux)  
