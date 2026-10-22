@@ -10,7 +10,8 @@
   <a href="https://github.com/iceblox-app/iceblox/releases/latest">Download</a> &middot;
   <a href="https://iceblox.app">iceblox.app</a> &middot;
   <a href="https://github.com/iceblox-app/iceblox/issues">Report an issue</a> &middot;
-  <a href="https://iceblox.app/notice">Licence &amp; legal notice</a>
+  <a href="https://iceblox.app/notice">Licence &amp; legal notice</a> &middot;
+  <a href="https://www.patreon.com/subassembly/posts/roblox-on-linux-173029095?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link">Patreon</a> &middot;
 </p>
 
 ---
@@ -59,6 +60,9 @@ This repository is the public issue tracker for iceblox. Found a bug, or Roblox 
 [Open an issue](https://github.com/iceblox-app/iceblox/issues/new) with your distro, CPU model, and what happened.
 
 The source code is not public; this repository exists for issue tracking and project updates, in the same way other launchers use GitHub for their trackers.
+
+## Support me on Patreon
+<a href="https://www.patreon.com/subassembly/posts/roblox-on-linux-173029095?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link">Patreon</a> 
 
 ## Legal
 
